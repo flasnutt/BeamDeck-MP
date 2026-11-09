@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+:root {
+  /* Default: Beam Orange Dark */
+  --color-bg: #0c0d0e;
+  --color-surface: #141619;
+  --color-surface-hover: #1c1f24;
+  --color-surface-active: #242830;
+  --color-border: #282d36;
+  --color-text: #f3f4f6;
+  --color-text-muted: #9ca3af;
+  --color-input-bg: #0f1114;
+  --color-primary: #f97316;
+}
+
+/* Midnight Cyber */
+.theme-midnight-cyber {
+  --color-bg: #070b14;
+  --color-surface: #0e1526;
+  --color-surface-hover: #162038;
+  --color-surface-active: #1d2c4e;
+  --color-border: #1e293b;
+  --color-text: #f0f6fc;
+  --color-text-muted: #94a3b8;
+  --color-input-bg: #090e1a;
+  --color-primary: #06b6d4;
+}
+
+/* High Contrast Dark */
+.theme-contrast-dark {
+  --color-bg: #000000;
+  --color-surface: #0a0a0a;
+  --color-surface-hover: #171717;
+  --color-surface-active: #262626;
+  --color-border: #525252;
+  --color-text: #ffffff;
+  --color-text-muted: #d4d4d4;
+  --color-input-bg: #000000;
+  --color-primary: #facc15;
+}
+
+/* High Contrast Light */
+.theme-contrast-light {
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-surface-hover: #f1f5f9;
+  --color-surface-active: #e2e8f0;
+  --color-border: #cbd5e1;
+  --color-text: #0f172a;
+  --color-text-muted: #475569;
+  --color-input-bg: #ffffff;
+  --color-primary: #ea580c;
+}
+
+/* Colorblind Safe */
+.theme-colorblind-safe {
+  --color-bg: #0a0f1d;
+  --color-surface: #131b2e;
+  --color-surface-hover: #1d2843;
+  --color-surface-active: #27365a;
+  --color-border: #334155;
+  --color-text: #f8fafc;
+  --color-text-muted: #94a3b8;
+  --color-input-bg: #0c1322;
+  --color-primary: #f59e0b;
+}
+
+/* High Contrast border override */
+.high-contrast-borders {
+  --color-border: #64748b !important;
+}
+
+/* Font Scales */
+.font-scale-sm {
+  font-size: 13px;
+}
+.font-scale-md {
+  font-size: 15px;
+}
+.font-scale-lg {
+  font-size: 17px;
+}
+.font-scale-xl {
+  font-size: 19px;
+}
+
+/* Reduced motion override */
+.reduced-motion *,
+.reduced-motion *::before,
+.reduced-motion *::after {
+  animation-duration: 0.001s !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001s !important;
+}

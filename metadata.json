@@ -1,0 +1,6 @@
+{
+  "name": "BeamDeck MP - Server Manager & Remote Dashboard",
+  "description": "Comprehensive BeamMP server manager for owned servers: custom mod uploader, remote player permissions, real-time live console, automated backup scheduler, and cross-platform hardware analytics for local and hosted environments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
